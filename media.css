@@ -1,0 +1,128 @@
+@media screen and (max-width: 1200px)
+{
+    
+}
+
+@media screen and (max-width: 992px)
+{
+     .slogan {
+        padding:0;
+    }
+    
+    .zagolovok span{
+        display:block;
+        font-size:0.7em;
+    }
+    
+    .reviews, .reviews .row:nth-child(odd) {
+            text-align:center;
+    }
+    
+    .reviews .row {
+        margin:15px;
+    }
+    
+    .reviews h3::before {
+        content:"";
+        display:block;
+        width: 200px;
+        border-top: 1px solid #fff;
+        margin:15px auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px)
+{
+    .zagolovok span{
+        font-size:0.56em;
+    }
+    
+    .forforms h1 {
+        font-size:1.5em;
+    } 
+    
+    .forforms p {
+        font-size:1.5em;
+    }
+    
+    .forforms .small {
+        font-size:10px;
+        padding:0px;
+        margin:0 auto;
+    }
+    
+    input, [type="submit"], button {
+        width: 250px;
+        display:block;
+        margin:10px auto;
+    }
+    
+    .rectangle {
+        width: 95%
+    }
+    
+    .rectangle div>span {
+        display:block;
+    }
+ 
+    .books_contents button {
+        display:none;        
+    }
+    
+    .books_contents ol {
+        margin:0;
+        width:100%;
+    }
+    
+    .form2 {
+        background-image: none;    
+    }
+    
+    footer {
+        text-align:center;        
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    form {
+        width:100%;
+        margin:15px 0;
+    }
+    
+    .forforms h1 {
+        font-size:1.3em;
+    } 
+    
+    .forforms p {
+        font-size:0.8em;
+    }
+    
+    .books_contents h1 {
+        font-size: 1.5em    
+    }
+    
+    .reviews h1 {
+        font-size:1.5em;
+        margin:0;
+    }
+    
+    .reviews h4 {
+        padding: 0;
+        width:100%;
+        font-size:1em;
+        margin-bottom: 15px;
+    }
+    
+    .text>h4::after{
+        display:none;
+    }
+ 
+}
+
+@media screen and (max-width: 320px)
+{
+    
+    
+}
